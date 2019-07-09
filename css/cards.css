@@ -1,0 +1,130 @@
+.cards-container {
+    height: 65%;
+}
+
+.card {
+    display: inline-block;
+    margin: 0% 10px;
+    width: 220px;
+    height: 375px;
+    vertical-align: top;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.photo {
+    margin: 35px 0px 15px;
+    height: 45%;
+    border-radius: 50%;
+}
+
+.name {
+    height: 13%;
+    font-size: 20pt;
+}
+
+.post {
+    height: 5%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eda191;
+    font-size: 10pt;
+}
+
+.description {
+    box-sizing: border-box;
+    height: 40%;
+    padding-top: 30px;
+    border-top: 2px solid #5b9c88;
+    font-size: 10pt;
+}
+
+.red {
+    border: 7px solid #eda191;
+    background-color: #e6655f;
+}
+
+.red:hover {
+    background-color: #eda191;
+    transition: 0.3s;
+}
+
+.green {
+    border: 7px solid #47dcc8;
+    background-color: #008081;
+}
+
+.green:hover {
+    background-color: #47dcc8;
+    transition: 0.3s;
+}
+
+.green:hover img {
+    background-color: #008081;
+    transition: 0.3s;
+}
+
+.green:hover .description {
+    border-top: 2px solid #47dcc8;
+    transition: 0.3s;
+}
+
+.border-white {
+    border: 4px solid white;
+}
+
+.background-green {
+    background-color: #334960;
+}
+
+.small-card {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    margin: 0% 10px;
+    vertical-align: top;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.small-card:hover {
+    height: 250px;
+    transition: 0.3s;
+}
+
+.small-card:hover .small-description {
+    height: 10%;
+    font-size: 16pt;
+    color: #9ba066;
+    transition: 0.3s;
+}
+
+.small-card:hover .border-yellow {
+    border: 5px solid #9ba066;
+    transition: 0.3s;
+}
+
+.small-photo {
+    box-sizing: border-box;
+    margin: 15px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+
+.small-description {
+    font-size: 0pt;
+    height: 0%;
+}
+
+.yellow {
+    border: 7px solid #f7ffb4;
+    background-color: #9ba066;
+}
+
+.yellow:hover {
+    background-color: #f7ffb4;
+}
+
+.border-yellow {
+    border: 5px solid #f7ffb4;
+}

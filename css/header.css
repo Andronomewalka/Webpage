@@ -1,0 +1,32 @@
+.logo-container,
+.navigation-container {
+    display: inline-block;
+    width: 50%;
+    font-size: 12pt;
+    vertical-align: top;
+}
+
+.navigation-container {
+    text-align: right;
+}
+
+.logo {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 0px 0px 130px;
+}
+
+.navigation {
+    box-sizing: border-box;
+    padding-right: 75px;
+}
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    padding: 40px 10px 10px;
+    height: 70px;
+    transition: 0.3s;
+}
