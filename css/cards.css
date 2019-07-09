@@ -5,8 +5,8 @@
 .card {
     display: inline-block;
     margin: 0% 10px;
-    width: 220px;
-    height: 375px;
+    width: 15%;
+    height: 85%;
     vertical-align: top;
     text-align: center;
     transition: 0.3s;
@@ -78,8 +78,8 @@
 
 .small-card {
     display: inline-block;
-    width: 220px;
-    height: 220px;
+    width: 15.5%;
+    height: 50%;
     margin: 0% 10px;
     vertical-align: top;
     text-align: center;
@@ -87,7 +87,7 @@
 }
 
 .small-card:hover {
-    height: 250px;
+    height: 57%;
     transition: 0.3s;
 }
 
