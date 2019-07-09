@@ -4,7 +4,7 @@
 
 .card {
     display: inline-block;
-    margin: 0% 10px;
+    margin: 0% 1%;
     width: 15%;
     height: 85%;
     vertical-align: top;
@@ -13,8 +13,9 @@
 }
 
 .photo {
-    margin: 35px 0px 15px;
+    margin: 10% 0% 5%;
     height: 45%;
+    width: 75%;
     border-radius: 50%;
 }
 
@@ -25,7 +26,8 @@
 
 .post {
     height: 5%;
-    padding-bottom: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20%;
     border-bottom: 2px solid #eda191;
     font-size: 10pt;
 }
@@ -33,7 +35,7 @@
 .description {
     box-sizing: border-box;
     height: 40%;
-    padding-top: 30px;
+    padding-top: 7%;
     border-top: 2px solid #5b9c88;
     font-size: 10pt;
 }
@@ -105,9 +107,9 @@
 
 .small-photo {
     box-sizing: border-box;
-    margin: 15px;
-    height: 190px;
-    width: 190px;
+    margin: 7%;
+    height: 85%;
+    width: 85%;
     border-radius: 50%;
 }
 
@@ -128,3 +130,14 @@
 .border-yellow {
     border: 5px solid #f7ffb4;
 }
+
+
+/*
+.small-photo {
+    box-sizing: border-box;
+    margin: 15px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+*/
