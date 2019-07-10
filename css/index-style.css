@@ -39,7 +39,7 @@ body {
 #welcome-screen-title {
     height: 40%;
     box-sizing: border-box;
-    padding-top: 210px;
+    padding-top: 13%;
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
@@ -49,22 +49,21 @@ body {
 #stuff-screen-title {
     height: 20%;
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 4%;
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
-    margin: 0;
     text-align: center;
 }
 
 #other-screen-title {
     height: 20%;
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 4%;
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
-    margin: 0;
+    letter-spacing: 1px;
     text-align: center;
 }
 

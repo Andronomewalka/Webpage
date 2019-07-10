@@ -100,9 +100,16 @@
 }
 
 .small-circle-buttons-container {
-    height: 37%;
-    box-sizing: border-box;
-    padding-top: 7%;
+    height: 25%;
+    width: 100%;
+    position: relative;
+}
+
+.small-circle-buttons-container:after {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
 }
 
 .small-circle-button {
@@ -114,6 +121,7 @@
     border: 2px solid white;
     text-decoration: none;
     transition: 0.3s;
+    vertical-align: middle;
 }
 
 .small-circle-button:hover {
@@ -180,3 +188,13 @@
     clip-path: inset(45% 5% 0% 75%);
     transition: 0.3s;
 }
+
+
+/*
+.small-circle-buttons-container {
+    height: 22%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20% 0%;
+}
+*/

@@ -4,40 +4,56 @@
 
 .card {
     display: inline-block;
-    margin: 0% 1%;
-    width: 15%;
+    width: 200px;
     height: 85%;
+    min-width: 200px;
+    max-height: 350px;
+    margin: 0% 1%;
+    box-sizing: border-box;
+    padding-top: 2%;
     vertical-align: top;
     text-align: center;
     transition: 0.3s;
 }
 
 .photo {
-    margin: 10% 0% 5%;
     height: 45%;
-    width: 75%;
+    box-sizing: border-box;
+    padding-bottom: 2%;
     border-radius: 50%;
 }
 
 .name {
     height: 13%;
+    box-sizing: border-box;
+    margin-top: 5%;
     font-size: 20pt;
+    padding-bottom: 5%;
 }
 
 .post {
-    height: 5%;
+    height: 15%;
     box-sizing: border-box;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
     border-bottom: 2px solid #eda191;
     font-size: 10pt;
 }
 
 .description {
+    height: 27%;
     box-sizing: border-box;
-    height: 40%;
-    padding-top: 7%;
+    margin-top: 10%;
     border-top: 2px solid #5b9c88;
     font-size: 10pt;
+    position: relative;
+}
+
+.description-text {
+    position: absolute;
+    left: 7%;
+    right: 7%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .red {
@@ -80,23 +96,28 @@
 
 .small-card {
     display: inline-block;
-    width: 15.5%;
-    height: 50%;
-    margin: 0% 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0% 1%;
     vertical-align: top;
     text-align: center;
     transition: 0.3s;
 }
 
 .small-card:hover {
-    height: 57%;
+    height: 230px;
     transition: 0.3s;
 }
 
 .small-card:hover .small-description {
-    height: 10%;
+    height: 30px;
     font-size: 16pt;
     color: #9ba066;
+    transition: 0.3s;
+}
+
+.small-card:hover .small-photo {
+    height: 74%;
     transition: 0.3s;
 }
 
@@ -108,9 +129,10 @@
 .small-photo {
     box-sizing: border-box;
     margin: 7%;
-    height: 85%;
     width: 85%;
+    height: 85%;
     border-radius: 50%;
+    transition: 0.3s;
 }
 
 .small-description {

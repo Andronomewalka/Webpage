@@ -2,7 +2,6 @@
 .navigation-container {
     display: inline-block;
     width: 50%;
-    font-size: 12pt;
     vertical-align: top;
 }
 
@@ -13,12 +12,12 @@
 .logo {
     display: inline-block;
     box-sizing: border-box;
-    padding: 15px 0px 0px 130px;
+    padding: 2% 0px 0px 25%;
 }
 
 .navigation {
     box-sizing: border-box;
-    padding-right: 75px;
+    padding-right: 10%;
 }
 
 .button {
@@ -26,6 +25,8 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+    font-size: 12pt;
+    margin: 0%;
     padding: 40px 10px 10px;
     height: 70px;
     transition: 0.3s;
