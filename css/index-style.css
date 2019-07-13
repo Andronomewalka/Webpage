@@ -36,36 +36,24 @@ body {
     background-color: #c3ca7d;
 }
 
-#welcome-screen-title {
-    height: 40%;
-    box-sizing: border-box;
-    position: relative;
-    top: 20%;
+#welcome-screen-title,
+#other-screen-title {
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
     margin: 0;
+    text-align: center;
+    position: relative;
 }
 
-#stuff-screen-title {
-    height: 10%;
-    position: relative;
-    top: 7%;
-    font-size: 20pt;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
+#welcome-screen-title {
+    height: 40%;
+    top: 20%;
 }
 
 #other-screen-title {
     height: 10%;
-    position: relative;
     top: 7%;
-    font-size: 20pt;
-    font-weight: bold;
-    letter-spacing: 1px;
-    letter-spacing: 1px;
-    text-align: center;
 }
 
 .blue-hover:hover {
@@ -84,15 +72,17 @@ body {
     background-color: #9ba066;
 }
 
-#background-green {
+#background-green,
+#background-purple {
     display: inline-block;
     padding: 1px 9px;
+}
+
+#background-green {
     background-color: #32ac98;
 }
 
 #background-purple {
-    display: inline-block;
-    padding: 1px 9px;
     background-color: #7f4c75;
 }
 
@@ -110,14 +100,14 @@ body {
     color: #fc2f3a;
 }
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     width: 5px;
 }
 
-::-webkit-scrollbar-track {
+ ::-webkit-scrollbar-track {
     background: white;
 }
 
-::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
     background: #6dc0c8;
 }

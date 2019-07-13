@@ -29,8 +29,8 @@
     height: 13%;
     box-sizing: border-box;
     margin-top: 5%;
-    font-size: 20pt;
     padding-bottom: 5%;
+    font-size: 20pt;
 }
 
 .post {
@@ -154,14 +154,3 @@
 .border-yellow {
     border: 5px solid #f7ffb4;
 }
-
-
-/*
-.small-photo {
-    box-sizing: border-box;
-    margin: 15px;
-    height: 190px;
-    width: 190px;
-    border-radius: 50%;
-}
-*/
