@@ -1,13 +1,15 @@
 .cards-container {
-    height: 65%;
+    position: relative;
+    top: 8%;
+    bottom: 0%;
+    height: 67%;
 }
 
 .card {
     display: inline-block;
-    width: 200px;
-    height: 85%;
-    min-width: 200px;
-    max-height: 350px;
+    width: 220px;
+    height: 90%;
+    max-height: 400px;
     margin: 0% 1%;
     box-sizing: border-box;
     padding-top: 2%;

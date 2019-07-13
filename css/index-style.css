@@ -16,30 +16,31 @@ body {
     text-align: center;
 }
 
-#welcome-screen {
+#welcome-screen,
+#stuff-screen,
+#services-screen,
+#clients-screen {
     height: 100vh;
     background-color: #334960;
 }
 
 #stuff-screen {
-    height: 100vh;
     background-color: #f17c72;
 }
 
 #services-screen {
-    height: 100vh;
     background-color: #32ac97;
 }
 
 #clients-screen {
-    height: 100vh;
     background-color: #c3ca7d;
 }
 
 #welcome-screen-title {
     height: 40%;
     box-sizing: border-box;
-    padding-top: 13%;
+    position: relative;
+    top: 20%;
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
@@ -47,9 +48,9 @@ body {
 }
 
 #stuff-screen-title {
-    height: 20%;
-    box-sizing: border-box;
-    padding-top: 4%;
+    height: 10%;
+    position: relative;
+    top: 7%;
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
@@ -57,9 +58,9 @@ body {
 }
 
 #other-screen-title {
-    height: 20%;
-    box-sizing: border-box;
-    padding-top: 4%;
+    height: 10%;
+    position: relative;
+    top: 7%;
     font-size: 20pt;
     font-weight: bold;
     letter-spacing: 1px;
@@ -100,6 +101,8 @@ body {
     font-size: 12pt;
     font-weight: 500;
     margin: 0;
+    position: relative;
+    top: 8%;
     text-align: center;
 }
 

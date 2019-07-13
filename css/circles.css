@@ -1,8 +1,8 @@
 .circles-container {
     height: 20%;
-    box-sizing: border-box;
     font-size: 14pt;
-    padding-top: 5%;
+    position: relative;
+    top: 5%;
 }
 
 .circle {
@@ -23,8 +23,8 @@
 
 .big-circle-buttons-container {
     height: 40%;
-    box-sizing: border-box;
-    padding-top: 5%;
+    position: relative;
+    top: 5%;
 }
 
 .big-circle-button {
