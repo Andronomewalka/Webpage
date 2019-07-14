@@ -1,13 +1,12 @@
 .cards-container {
     height: 63%;
-    overflow: hidden;
 }
 
 .card {
     display: inline-block;
     width: 200px;
     height: 80%;
-    max-height: 400px;
+    max-height: 370px;
     margin: 1%;
     box-sizing: border-box;
     vertical-align: top;
@@ -17,7 +16,7 @@
 .photo {
     height: 40%;
     box-sizing: border-box;
-    margin-top: 4vh;
+    margin-top: 2vh;
     border-radius: 50%;
 }
 
