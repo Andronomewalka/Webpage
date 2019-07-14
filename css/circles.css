@@ -1,8 +1,6 @@
 .circles-container {
     height: 20%;
     font-size: 14pt;
-    position: relative;
-    top: 5%;
 }
 
 .circle {
@@ -22,9 +20,7 @@
 }
 
 .big-circle-buttons-container {
-    height: 40%;
-    position: relative;
-    top: 5%;
+    height: 35%;
 }
 
 .big-circle-button {
@@ -61,7 +57,7 @@
     position: relative;
     top: -27%;
     left: -187%;
-    clip-path: inset(17% 55% 45% 30%);
+    clip-path: inset(16% 55% 45% 30%);
 }
 
 .big-circle-button-google:hover {
@@ -100,7 +96,7 @@
 }
 
 .small-circle-buttons-container {
-    height: 25%;
+    height: 22%;
     width: 100%;
     position: relative;
 }

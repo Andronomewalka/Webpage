@@ -8,12 +8,13 @@ body {
 }
 
 .header {
-    height: 10%;
+    height: 10vh;
 }
 
 .main {
-    height: 90%;
+    height: 90vh;
     text-align: center;
+    background: inherit;
 }
 
 #welcome-screen,
@@ -42,18 +43,18 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     margin: 0;
-    text-align: center;
+    box-sizing: border-box;
     position: relative;
 }
 
 #welcome-screen-title {
-    height: 40%;
-    top: 20%;
+    padding-top: 20vh;
+    height: 45%;
 }
 
 #other-screen-title {
-    height: 10%;
-    top: 7%;
+    padding-top: 10vh;
+    height: 22%;
 }
 
 .blue-hover:hover {
@@ -75,6 +76,7 @@ body {
 #background-green,
 #background-purple {
     display: inline-block;
+    box-sizing: border-box;
     padding: 1px 9px;
 }
 
@@ -91,8 +93,6 @@ body {
     font-size: 12pt;
     font-weight: 500;
     margin: 0;
-    position: relative;
-    top: 8%;
     text-align: center;
 }
 
@@ -110,4 +110,14 @@ body {
 
  ::-webkit-scrollbar-thumb {
     background: #6dc0c8;
+}
+
+.bottom-triangle {
+    width: 9vh;
+    height: 9vh;
+    background: inherit;
+    position: relative;
+    top: -4.5vh;
+    left: 47.5vw;
+    transform: rotateZ(45deg);
 }
