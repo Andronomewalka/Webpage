@@ -1,13 +1,31 @@
 .cards-container {
     height: 63%;
+    margin: 0 10px;
+}
+
+.half-left-wrapper {
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.half-right-wrapper {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    width: 50%;
+    height: 100%;
 }
 
 .card {
     display: inline-block;
+    text-align: center;
     width: 200px;
-    height: 80%;
+    height: 45vh;
     max-height: 370px;
-    margin: 1%;
+    margin: 5px;
     box-sizing: border-box;
     vertical-align: top;
     transition: 0.3s;
@@ -16,22 +34,21 @@
 .photo {
     height: 40%;
     box-sizing: border-box;
-    margin-top: 2vh;
+    margin-top: 20px;
     border-radius: 50%;
 }
 
 .name {
     height: 13%;
     box-sizing: border-box;
-    margin-top: 1vh;
-    padding-bottom: 2vh;
+    margin: 20px 0 10px;
     font-size: 20pt;
 }
 
 .post {
-    height: 15%;
+    height: 10%;
     box-sizing: border-box;
-    padding-bottom: 3%;
+    padding-bottom: 10px;
     border-bottom: 2px solid #eda191;
     font-size: 10pt;
 }
@@ -39,7 +56,7 @@
 .description {
     height: 27%;
     box-sizing: border-box;
-    margin-top: 10%;
+    margin-top: 15px;
     border-top: 2px solid #5b9c88;
     font-size: 10pt;
     position: relative;
@@ -95,7 +112,7 @@
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin: 1%;
+    margin: 5px;
     vertical-align: top;
     text-align: center;
     transition: 0.3s;

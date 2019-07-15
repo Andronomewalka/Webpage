@@ -5,16 +5,7 @@ body {
     font-size: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-}
-
-.header {
-    height: 10vh;
-}
-
-.main {
-    height: 90vh;
-    text-align: center;
-    background: inherit;
+    overflow-x: hidden;
 }
 
 #welcome-screen,
@@ -22,18 +13,30 @@ body {
 #services-screen,
 #clients-screen {
     height: 100vh;
+}
+
+.header {
+    display: flex;
+}
+
+.main {
+    height: 90vh;
+    text-align: center;
+}
+
+.welcome-screen-color {
     background-color: #334960;
 }
 
-#stuff-screen {
+.stuff-screen-color {
     background-color: #f17c72;
 }
 
-#services-screen {
+.services-screen-color {
     background-color: #32ac97;
 }
 
-#clients-screen {
+.clients-screen-color {
     background-color: #c3ca7d;
 }
 
@@ -44,16 +47,16 @@ body {
     letter-spacing: 1px;
     margin: 0;
     box-sizing: border-box;
-    position: relative;
 }
 
 #welcome-screen-title {
-    padding-top: 20vh;
+    padding-top: 150px;
     height: 45%;
 }
 
 #other-screen-title {
-    padding-top: 10vh;
+    box-sizing: border-box;
+    padding-top: 70px;
     height: 22%;
 }
 
@@ -93,6 +96,8 @@ body {
     font-size: 12pt;
     font-weight: 500;
     margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
     text-align: center;
 }
 
@@ -112,12 +117,26 @@ body {
     background: #6dc0c8;
 }
 
-.bottom-triangle {
-    width: 9vh;
-    height: 9vh;
-    background: inherit;
-    position: relative;
-    top: -4.5vh;
-    left: 47.5vw;
-    transform: rotateZ(45deg);
+@media (max-width:858px) {
+    #stuff-screen,
+    #services-screen,
+    #clients-screen {
+        height: 150vh;
+    }
+}
+
+@media (max-width:537px) {
+    #stuff-screen,
+    #services-screen,
+    #clients-screen {
+        height: 200vh;
+    }
+}
+
+@media (max-width:480px) {
+    #stuff-screen,
+    #services-screen,
+    #clients-screen {
+        height: 160vh;
+    }
 }

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.9">
     <link href="css/index-style.css" rel="stylesheet">
     <link href="css/cards.css" rel="stylesheet">
     <link href="css/circles.css" rel="stylesheet">
@@ -11,7 +12,7 @@
 </head>
 
 <body>
-    <section id="welcome-screen">
+    <section id="welcome-screen" class="welcome-screen-color">
         <header class="header">
             <div class="logo"></div>
             <div class="navigation-container">
@@ -46,12 +47,12 @@
                     <img class="big-circle-button-twitter" src="images/sprite.png">
                 </a>
             </div>
-            <div class="bottom-triangle"></div>
         </main>
     </section>
-    <section id="stuff-screen">
+    <section id="stuff-screen" class="stuff-screen-color">
         <header class="header">
             <div class="logo"></div>
+            <div class="upper-triangle welcome-screen-color"></div>
             <div class="navigation-container">
                 <nav class="navigation">
                     <a href="index.html#welcome-screen" class="button red-hover"> Home </a>
@@ -80,89 +81,93 @@
                 </span>
             </div>
             <div class="cards-container">
-                <div class="card red">
-                    <img class="photo" src="images/box_img1.jpg">
-                    <div class="name"> Laura Stegner </div>
-                    <div class="post"> senior manager </div>
-                    <div class="small-circle-buttons-container">
-                        <a href="https://facebook.com/" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
-                        </a>
-                        <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
-                        </a>
-                        <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
-                        </a>
-                        <a href="https://twitter.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
-                        </a>
+                <div class="half-left-wrapper">
+                    <div class="card red">
+                        <img class="photo" src="images/box_img1.jpg">
+                        <div class="name"> Laura Stegner </div>
+                        <div class="post"> senior manager </div>
+                        <div class="small-circle-buttons-container">
+                            <a href="https://facebook.com/" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
+                            </a>
+                            <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
+                            </a>
+                            <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
+                            </a>
+                            <a href="https://twitter.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card red">
+                        <img class="photo" src="images/box_img2.jpg">
+                        <div class="name"> Anton Stegner </div>
+                        <div class="post"> manager </div>
+                        <div class="small-circle-buttons-container">
+                            <a href="https://facebook.com/" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
+                            </a>
+                            <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
+                            </a>
+                            <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
+                            </a>
+                            <a href="https://twitter.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="card red">
-                    <img class="photo" src="images/box_img2.jpg">
-                    <div class="name"> Anton Stegner </div>
-                    <div class="post"> manager </div>
-                    <div class="small-circle-buttons-container">
-                        <a href="https://facebook.com/" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
-                        </a>
-                        <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
-                        </a>
-                        <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
-                        </a>
-                        <a href="https://twitter.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
-                        </a>
+                <div class="half-right-wrapper">
+                    <div class="card red">
+                        <img class="photo" src="images/box_img3.jpg">
+                        <div class="name"> Lisa Haddon </div>
+                        <div class="post"> designer </div>
+                        <div class="small-circle-buttons-container">
+                            <a href="https://facebook.com/" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
+                            </a>
+                            <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
+                            </a>
+                            <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
+                            </a>
+                            <a href="https://twitter.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="card red">
-                    <img class="photo" src="images/box_img3.jpg">
-                    <div class="name"> Lisa Haddon </div>
-                    <div class="post"> designer </div>
-                    <div class="small-circle-buttons-container">
-                        <a href="https://facebook.com/" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
-                        </a>
-                        <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
-                        </a>
-                        <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
-                        </a>
-                        <a href="https://twitter.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="card red">
-                    <img class="photo" src="images/box_img4.jpg">
-                    <div class="name"> Bradley Grosh </div>
-                    <div class="post"> director </div>
-                    <div class="small-circle-buttons-container">
-                        <a href="https://facebook.com/" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
-                        </a>
-                        <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
-                        </a>
-                        <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
-                        </a>
-                        <a href="https://twitter.com" class="small-circle-button" target="_blank">
-                            <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
-                        </a>
+                    <div class="card red">
+                        <img class="photo" src="images/box_img4.jpg">
+                        <div class="name"> Bradley Grosh </div>
+                        <div class="post"> director </div>
+                        <div class="small-circle-buttons-container">
+                            <a href="https://facebook.com/" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-facebook" src="images/sprite.png">
+                            </a>
+                            <a href="https://aboutme.google.com/u/0/?referer=gplus" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-google" src="images/sprite.png">
+                            </a>
+                            <a href="https://www.linkedin.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-linkedid" src="images/sprite.png">
+                            </a>
+                            <a href="https://twitter.com" class="small-circle-button" target="_blank">
+                                <img class="smaller-sprite small-circle-button-twitter" src="images/sprite.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="bottom-triangle"></div>
         </main>
     </section>
-    <section id="services-screen">
+    <section id="services-screen" class="services-screen-color">
         <header class="header">
             <div class="logo"></div>
+            <div class="upper-triangle stuff-screen-color"></div>
             <div class="navigation-container">
                 <nav class="navigation">
                     <a href="index.html#welcome-screen" class="button green-hover"> Home </a>
@@ -176,62 +181,60 @@
         <main class="main">
             <div id="other-screen-title"> Our Services </div>
             <div id="lorem-ipsum">
-                <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. Pariatur, repellat consectetur? Cum sapiente
-                    delectus magnam <br> 
-                    dolorum quos veritatis voluptas ab, asperiores
-                    doloremque veniam, dolorem soluta quo quae sequi.
-                </span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repellat consectetur? Cum sapiente delectus magnam <br> dolorum quos veritatis voluptas ab, asperiores doloremque veniam, dolorem soluta quo quae sequi.
             </div>
             <div class="cards-container">
-                <div class="card green">
-                    <img class="photo background-green border-white" src="images/box1_img1.png">
-                    <div class="name"> Strategy </div>
-                    <div class="description">
-                        <span class="description-text">
+                <div class="half-left-wrapper">
+                    <div class="card green">
+                        <img class="photo background-green border-white" src="images/box1_img1.png">
+                        <div class="name"> Strategy </div>
+                        <div class="description">
+                            <span class="description-text">
                             Lorem ipsum dolor sit, amet consectetur 
                             adipisicing elit. Esse.
                         </span>
+                        </div>
                     </div>
-                </div>
-                <div class="card green">
-                    <img class="photo background-green border-white" src="images/box1_img2.png">
-                    <div class="name"> Research </div>
-                    <div class="description">
-                        <span class="description-text">
+                    <div class="card green">
+                        <img class="photo background-green border-white" src="images/box1_img2.png">
+                        <div class="name"> Research </div>
+                        <div class="description">
+                            <span class="description-text">
                             Lorem ipsum dolor sit amet consectetur 
                             adipisicing elit. 
                             Quo suscipit quisquam ipsum.
                         </span>
+                        </div>
                     </div>
                 </div>
-                <div class="card green">
-                    <img class="photo background-green border-white" src="images/box1_img3.png">
-                    <div class="name"> Development </div>
-                    <div class="description">
-                        <span class="description-text">
+                <div class="half-right-wrapper">
+                    <div class="card green">
+                        <img class="photo background-green border-white" src="images/box1_img3.png">
+                        <div class="name"> Development </div>
+                        <div class="description">
+                            <span class="description-text">
                             Lorem ipsum, dolor sit amet consectetur 
                             adipisicing elit. 
                         </span>
+                        </div>
                     </div>
-                </div>
-                <div class="card green">
-                    <img class="photo background-green border-white" src="images/box1_img4.png">
-                    <div class="name"> Consulting </div>
-                    <div class="description">
-                        <span class="description-text">
+                    <div class="card green">
+                        <img class="photo background-green border-white" src="images/box1_img4.png">
+                        <div class="name"> Consulting </div>
+                        <div class="description">
+                            <span class="description-text">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="bottom-triangle"></div>
         </main>
     </section>
-    <section id="clients-screen">
+    <section id="clients-screen" class="clients-screen-color">
         <header class="header">
             <div class="logo"></div>
+            <div class="upper-triangle services-screen-color"></div>
             <div class="navigation-container">
                 <nav class="navigation">
                     <a href="index.html#welcome-screen" class="button yellow-hover"> Home </a>
@@ -252,28 +255,32 @@
                 </span>
             </div>
             <div class="cards-container">
-                <div class="small-card yellow">
-                    <div class="small-photo border-yellow"> Strategy </div>
-                    <div class="small-description">
-                        <span> Some Name </span>
+                <div class="half-left-wrapper">
+                    <div class="small-card yellow">
+                        <div class="small-photo border-yellow"> Strategy </div>
+                        <div class="small-description">
+                            <span> Some Name </span>
+                        </div>
+                    </div>
+                    <div class="small-card yellow">
+                        <div class="small-photo border-yellow"> Strategy </div>
+                        <div class="small-description">
+                            <span> Some Name </span>
+                        </div>
                     </div>
                 </div>
-                <div class="small-card yellow">
-                    <div class="small-photo border-yellow"> Strategy </div>
-                    <div class="small-description">
-                        <span> Some Name </span>
+                <div class="half-right-wrapper">
+                    <div class="small-card yellow">
+                        <div class="small-photo border-yellow"> Strategy </div>
+                        <div class="small-description">
+                            <span> Some Name </span>
+                        </div>
                     </div>
-                </div>
-                <div class="small-card yellow">
-                    <div class="small-photo border-yellow"> Strategy </div>
-                    <div class="small-description">
-                        <span> Some Name </span>
-                    </div>
-                </div>
-                <div class="small-card yellow">
-                    <div class="small-photo border-yellow"> Strategy </div>
-                    <div class="small-description">
-                        <span> Some Name </span>
+                    <div class="small-card yellow">
+                        <div class="small-photo border-yellow"> Strategy </div>
+                        <div class="small-description">
+                            <span> Some Name </span>
+                        </div>
                     </div>
                 </div>
             </div>
