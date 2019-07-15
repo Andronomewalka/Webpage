@@ -125,14 +125,6 @@ body {
     }
 }
 
-@media (max-width:537px) {
-    #stuff-screen,
-    #services-screen,
-    #clients-screen {
-        height: 200vh;
-    }
-}
-
 @media (max-width:480px) {
     #stuff-screen,
     #services-screen,

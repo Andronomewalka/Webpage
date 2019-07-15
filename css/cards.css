@@ -25,6 +25,7 @@
     width: 200px;
     height: 45vh;
     max-height: 370px;
+    min-height: 320px;
     margin: 5px;
     box-sizing: border-box;
     vertical-align: top;
